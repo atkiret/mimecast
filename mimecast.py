@@ -21,15 +21,15 @@ URI = "/api/audit/get-siem-logs"
 EMAIL_ADDRESS = 'EMAIL ADDRESS OF YOUR ADMINISTRATOR'
 ACCESS_KEY = 'mYtOL3XZCOwG96BOiFTZRtC-FxmwUgWndL-Fqhw6E5CopIUKKxyjiQgVjrkKnrNkwp8h62gHN5gbv6M-9G50ZQasCZgovx_0JPJzsXW-8lCp1ClaS-gEW49ahvml4zHDEkLD-xOFpNfiYuCEP4vhow'
 SECRET_KEY = 'l3qpEBzU5tVzEzqHhd5jKYmnIalUGWeUdDs1zO4VBBhpobvkqjS/r2ML5hnvXVLLoLaJ4F0xmSEvalFf/Uaf/A=='
-LOG_FILE_PATH = "FULLY QUALIFIED PATH TO FOLDER TO WRITE LOGS"
-CHK_POINT_DIR = 'FULLY QUALIFIED PATH TO FOLDER TO WRITE PAGE TOKEN'
+LOG_FILE_PATH = "/etc/mimecast/log/"
+CHK_POINT_DIR = '/etc/mimecast/point'
  
 # Set True to output to syslog, false to only save to file
 syslog_output = True
 # Enter the IP address or hostname of your syslog server
 syslog_server = '127.0.0.1'
 # Change this to override default port
-syslog_port = 514
+syslog_port = 4045
 # delete files after fetching
 delete_files = True
 # Set threshold in number of files in log file directory
